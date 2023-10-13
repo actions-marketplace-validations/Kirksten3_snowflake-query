@@ -1,5 +1,5 @@
 name: 'Snowflake Query Action'
-author: 'anecdotes.ai'
+author: 'anecdotes.ai / Kirksten3'
 description: 'This action lets running a list of SQL queries on your Snowflake DB.'
 
 branding:
