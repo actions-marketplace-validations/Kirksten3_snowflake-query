@@ -1,10 +1,12 @@
 # Snowflake-query
 
-![last tag](https://img.shields.io/github/v/tag/anecdotes-ai/snowflake-query?color=brightgreen&label=release&logo=github)
-![Sanity Workflow](https://github.com/anecdotes-ai/snowflake-query/actions/workflows/sanity.yml/badge.svg?branch=master)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 This github action runs SQL queries list in Snowflake DB, which its access configuration is defined in the workflow.
+
+# Note
+This has been forked from the anecdotesai/snowflake-query repo because it seems that is no longer managed.
+This was designed to fix a bug that arose from oscrypto delayed updates.
 
 ## Inputs
 
@@ -31,7 +33,7 @@ It may be accessed in following steps by `${{steps.run_queries.outputs.queries_o
 ```yaml
 steps:
   - name: Run queries
-    uses: anecdotes-ai/snowflake-query@v1
+    uses: Kirksten3/snowflake-query@v1.2.1
     id: run_queries
     with:
         snowflake_account: ${{ secrets.SNOWFLAKE_ACCOUNT }}
@@ -57,7 +59,7 @@ strategy:
             'TABLE4', 'TABLE5']
 steps:
   - name: Run Delete Queries
-    uses: anecdotes-ai/snowflake-query@v1
+    uses: Kirksten3/snowflake-query@v1.2.1
     id: run_delete_queries
     with:
       snowflake_account: ${{ secrets.SNOWFLAKE_ACCOUNT }}
