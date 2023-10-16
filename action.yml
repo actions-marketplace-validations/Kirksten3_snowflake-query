@@ -1,6 +1,6 @@
 name: 'Snowflake Query Runner Action'
 author: 'anecdotes.ai / Kirksten3'
-description: 'This action lets you run a list of SQL queries against Snowflake. Forked from anecdotes.ai since it is no longer maintained there.'
+description: 'This action lets you run a list of SQL queries against Snowflake. Forked from anecdotes.ai to continue support.'
 
 branding:
   icon: 'database'
