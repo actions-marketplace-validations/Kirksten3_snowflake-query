@@ -1,6 +1,6 @@
 name: 'Snowflake Query Runner Action'
 author: 'anecdotes.ai / Kirksten3'
-description: 'This action lets running a list of SQL queries on your Snowflake DB.'
+description: 'This action lets you run a list of SQL queries against Snowflake. Forked from anecdotes.ai since it is no longer maintained there.'
 
 branding:
   icon: 'database'
@@ -8,13 +8,13 @@ branding:
 
 inputs:
   snowflake_username:
-    description: 'Username for Snowflake DB'
+    description: 'Username for Snowflake'
     required: true
   snowflake_password:
-    description: 'Password for Snowflake DB'
+    description: 'Password for Snowflake'
     required: true
   snowflake_account:
-    description: 'Account name for Snowflake DB. Your account name is the full/entire string to the left of snowflakecomputing.com.'
+    description: 'Account name for Snowflake. Your account name is the full/entire string to the left of snowflakecomputing.com.'
     required: true
   snowflake_warehouse:
     description: 'Warehouse as context'
