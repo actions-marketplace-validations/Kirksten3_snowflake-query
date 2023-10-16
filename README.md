@@ -2,11 +2,11 @@
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-This github action runs SQL queries list in Snowflake DB, which its access configuration is defined in the workflow.
+This github action runs a list of SQL queries against a Snowflake DB, with the configuration described below.
 
 # Note
 This has been forked from the anecdotesai/snowflake-query repo because it seems that is no longer managed.
-This was designed to fix a bug that arose from oscrypto delayed updates.
+This was designed to fix a bug that arose from oscrypto delayed updates. I plan to update and maintain this in moving forward.
 
 ## Inputs
 
