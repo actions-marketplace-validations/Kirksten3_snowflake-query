@@ -1,4 +1,4 @@
-name: 'Snowflake Query Action'
+name: 'Snowflake Query Runner Action'
 author: 'anecdotes.ai / Kirksten3'
 description: 'This action lets running a list of SQL queries on your Snowflake DB.'
 
